@@ -1,0 +1,72 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+
+# === ANDROID / ANDROID STUDIO ===
+/.gradle/
+/.idea/
+/captures/
+/.gradle-build/
+
+# === BUILD OUTPUT ===
+/build/
+/app/build/
+/*/build/
+
+# === NDK / CMake ===
+/.externalNativeBuild/
+/.cxx/
+
+# === SIGNED / KEYSTORE (NO SUBIR JAMÁS) ===
+*.jks
+*.keystore
+*.keystore.properties
+key.properties
+
+# === LOGS / TEMP ===
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# === ANDROID STUDIO CACHE ===
+/.idea/caches/
+/.idea/libraries/
+/.DS_Store
+
+# === OS FILES ===
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# === GRADLE CACHE ===
+/**/.gradle
+
+# === KOTLIN ===
+*.kotlin_metadata
+
+# === OTHER UNNECESSARY FILES ===
+/out/
+/navigation.json
